@@ -2,8 +2,8 @@
                                         %{class} = fhnwreport, article, 
                                         %          report, book, beamer, standalone
 \input{header}			                %loads all packages, definitions and settings												
-\title{\Huge{\textbf{Fachbericht}}\\}          %Project Title
-\author{\huge{Wetterstation mit Solar Energie}}          %Document Type => Technical Report, ...
+\title{\Huge{\textbf{Lerntagebuch}}\\}          %Project Title
+\author{\huge{\glqq Aufgeklärte Welt und Religion - ein Paradox?\grqq}}          %Document Type => Technical Report, ...
 \date{Windisch, \today}             %Place and Date
 
 
@@ -27,10 +27,9 @@
 \begin{tabular}{>{\bf}p{4cm} l}
 Hochschule                 &    Hochschule für Technik - FHNW\\
 Studiengang                &    Elektro- und Informationstechnik\\
-Autor/-en  		           & 	Mischa Knupfer, Andres Minder\\
-Betreuer                   &    Prof. Dr. Taoufik Nouri\\
-Auftraggeber               &    Prof. Dr. Taoufik Nouri\\
-Version                    &    1.2 %Normally not used!
+Autor	  		           & 	Andres Minder\\
+Dozierende                 &    Mathias Bänziger, Adrienne Hochuli\\
+Klasse		               &    8KGa\\
 \end{tabular}
 \end{center}
 }
@@ -40,29 +39,18 @@ Version                    &    1.2 %Normally not used!
 %%---ABSTRACT----------------------------------------------------------------------------
 \selectlanguage{english}				%ngerman or english
 \thispagestyle{empty}
-\include{sections/abstract}
+%\include{sections/abstract}
 
 %%---TABLE OF CONTENTS-------------------------------------------------------------------
 \pagenumbering{Roman}		
 \selectlanguage{ngerman}				%ngerman or english
-\tableofcontents
+%\tableofcontents
 \clearpage
 
 %%---TEXT--------------------------------------------------------------------------------
 \pagenumbering{arabic}
-\include{sections/einleitung}
-\include{sections/technical/Auftragsbeschreibung}
-\include{sections/organizational/Ziele_p5_p6}
-\include{sections/technical/Konzept}
-\include{sections/technical/interfaces}
-\include{sections/technical/MCU}
-\include{sections/technical/RTC}
-\include{sections/technical/Sensoren}
-\include{sections/technical/Datenspeicherung}
-\include{sections/technical/Firmware}
-%\include{sections/technical/Kommunikationsmodul}
-%\include{sections/technical/Energieversorgung}
-\include{sections/technical/Konzeptvalidierung}
+\include{sections/00_Einleitung}
+\include{sections/01_ersteVorlesung}
 
 %%---BIBLIOGRAPHY------------------------------------------------------------------------
 {\sloppypar
@@ -73,7 +61,7 @@ Version                    &    1.2 %Normally not used!
 }
 
 %%---APPENDIX----------------------------------------------------------------------------
-\include{sections/appendix}
+%\include{sections/appendix}
 
 %%---NOTES for DEBUG---------------------------------------------------------------------
 \ifdraft{%Do this only if mode=draft
