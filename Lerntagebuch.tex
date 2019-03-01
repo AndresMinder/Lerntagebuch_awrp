@@ -28,8 +28,8 @@
 Hochschule                 &    Hochschule für Technik - FHNW\\
 Studiengang                &    Elektro- und Informationstechnik\\
 Autor	  		           & 	Andres Minder\\
+Modulanlass	               &    8KGa\\
 Dozierende                 &    Mathias Bänziger, Adrienne Hochuli\\
-Klasse		               &    8KGa\\
 \end{tabular}
 \end{center}
 }
@@ -50,7 +50,10 @@ Klasse		               &    8KGa\\
 %%---TEXT--------------------------------------------------------------------------------
 \pagenumbering{arabic}
 \include{sections/00_Einleitung}
+\setcounter{page}{1}
+\tableofcontents
 \include{sections/01_ersteVorlesung}
+\include{sections/02_zweiteVorlesung}
 
 %%---BIBLIOGRAPHY------------------------------------------------------------------------
 {\sloppypar
@@ -67,7 +70,7 @@ Klasse		               &    8KGa\\
 \ifdraft{%Do this only if mode=draft
 %%requires \usepackage{todonotes})
 \newpage
-\listoftodos[\section{Todo-Notes}]
+%\listoftodos[\section{Todo-Notes}]
 \clearpage
 }
 {%Do this only if mode=final
