@@ -8,3 +8,7 @@
 \contentsline {section}{\numberline {3}Vorlesung vom 05.03.2019}{4}{section.3}
 \contentsline {section}{\numberline {4}Vorlesung vom 12.03.2019}{5}{section.4}
 \contentsline {section}{\numberline {5}Vorlesung vom 19.03.2019}{6}{section.5}
+\contentsline {section}{\numberline {6}Vorlesung vom 26.03.2019}{7}{section.6}
+\contentsline {section}{\numberline {7}Vorlesung vom 02.04.2019}{8}{section.7}
+\contentsline {section}{\numberline {8}Vorlesung vom 09.04.2019}{9}{section.8}
+\contentsline {section}{\numberline {9}Vorlesung vom 16.04.2019}{10}{section.9}
